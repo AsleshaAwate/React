@@ -1,0 +1,22 @@
+#allproductsshow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#productshow{
+    width: 23%;
+    height: 600px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+#productshow > img{
+    width: 80%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+#productshow > p{
+    font-size: 11px;
+}
